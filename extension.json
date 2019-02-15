@@ -11,26 +11,26 @@
 	"Hooks": {
 		"BeforePageDisplay": "ScrollableTablesHooks::registerModules"
 	},
-    "AutoloadClasses": {
-        "ScrollableTablesHooks": "ScrollableTables.hooks.php"
+	"AutoloadClasses": {
+		"ScrollableTablesHooks": "ScrollableTables.hooks.php"
 	},
 	"MessagesDirs": {
 		"ScrollableTables": [
 			"i18n"
 		]
 	},
-    "ResourceModules": {
-        "ext.scrollableTables": {
-            "scripts": [
-                "ext.scrollableTables.thead.js",
-                "ext.scrollableTables.js"
-            ],
-            "styles": "ext.scrollableTables.css"
-        }
-    },
-    "ResourceFileModulePaths": {
-        "localBasePath": "",
-        "remoteExtPath": "ScrollableTables"
-    },
+	"ResourceModules": {
+		"ext.scrollableTables": {
+			"scripts": [
+				"ext.scrollableTables.thead.js",
+				"ext.scrollableTables.js"
+			],
+			"styles": "ext.scrollableTables.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ScrollableTables"
+	},
 	"manifest_version": 1
 }
