@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Vlad5250",
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
-	"scrollabletables-desc": "Активира неподвижен заглавен ред плъзгащо се съдържание в таблиците."
+	"scrollabletables-desc": "Активира неподвижен заглавен ред и плъзгащо се съдържание в таблиците."
 }
