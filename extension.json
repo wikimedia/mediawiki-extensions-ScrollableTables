@@ -22,15 +22,15 @@
 	"ResourceModules": {
 		"ext.scrollableTables": {
 			"scripts": [
-				"ext.scrollableTables.thead.js",
-				"ext.scrollableTables.js"
+				"js/ext.scrollableTables.thead.js",
+				"js/ext.scrollableTables.js"
 			],
-			"styles": "ext.scrollableTables.css"
+			"styles": "css/ext.scrollableTables.css"
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "ScrollableTables"
+		"localBasePath": "modules",
+		"remoteExtPath": "ScrollableTables/modules"
 	},
 	"manifest_version": 1
 }
