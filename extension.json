@@ -12,7 +12,7 @@
 		"BeforePageDisplay": "ScrollableTablesHooks::registerModules"
 	},
 	"AutoloadClasses": {
-		"ScrollableTablesHooks": "ScrollableTables.hooks.php"
+		"ScrollableTablesHooks": "ScrollableTablesHooks.php"
 	},
 	"MessagesDirs": {
 		"ScrollableTables": [
