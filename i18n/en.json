@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": ["Clark Verbrugge"]
+		"authors": [
+			"Clark Verbrugge"
+		]
 	},
 	"scrollabletables-desc": "Enables a static header row and scrolling body in tables."
 }
