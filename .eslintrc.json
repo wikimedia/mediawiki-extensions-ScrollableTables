@@ -9,7 +9,6 @@
 		"max-len": "off",
 		"no-implicit-globals": "off",
 		"no-undef": "off",
-		"one-var": "off",
 		"vars-on-top": "off"
 	}
 }
