@@ -8,7 +8,6 @@
 	"rules": {
 		"max-len": "off",
 		"no-implicit-globals": "off",
-		"no-undef": "off",
-		"vars-on-top": "off"
+		"no-undef": "off"
 	}
 }
