@@ -8,6 +8,9 @@
 	"descriptionmsg": "scrollabletables-desc",
 	"license-name": "CC0-1.0",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"Hooks": {
 		"BeforePageDisplay": "ScrollableTablesHooks::registerModules"
 	},
@@ -32,5 +35,5 @@
 		"localBasePath": "modules",
 		"remoteExtPath": "ScrollableTables/modules"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
