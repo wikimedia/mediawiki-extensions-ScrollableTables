@@ -1,7 +1,7 @@
 ( function () {
-	var d = document.querySelectorAll( 'tr.scrollabletable' );
-	for ( var i = d.length - 1; i >= 0; i-- ) {
-		var row = d.item( i ),
+	const d = document.querySelectorAll( 'tr.scrollabletable' );
+	for ( let i = d.length - 1; i >= 0; i-- ) {
+		let row = d.item( i ),
 			// first find the table tag
 			table = row.parentNode;
 		// skip over a body
@@ -12,7 +12,7 @@
 		if ( !table.tHead ) {
 			// remove first row and add it to a newly created thead
 			row.parentNode.removeChild( row );
-			var newHead = document.createElement( 'thead' );
+			const newHead = document.createElement( 'thead' );
 			newHead.classList.add( 'scrollableTable' );
 			newHead.appendChild( row );
 			row.style.display = 'table-header-group';

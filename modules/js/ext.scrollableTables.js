@@ -7,10 +7,10 @@
 	}
 	function headerListener() {
 		// this function is to adjust the header widths to match those of the first row of the table
-		var d = document.querySelectorAll( 'tr.scrollabletable' );
+		const d = document.querySelectorAll( 'tr.scrollabletable' );
 		// for all such tables
-		for ( var i = d.length - 1; i >= 0; i-- ) {
-			var row = d.item( i ),
+		for ( let i = d.length - 1; i >= 0; i-- ) {
+			let row = d.item( i ),
 				// we searched for the header row, so go upward to find the actual table
 				table = row.parentNode;
 			while ( table && table.tagName.toLowerCase() !== 'table' ) {
@@ -23,11 +23,11 @@
 			if ( table.tBodies.length === 0 || table.tBodies[ 0 ].rows.length === 0 ) {
 				continue;
 			}
-			var cells = table.tBodies[ 0 ].rows[ 0 ].cells;
+			const cells = table.tBodies[ 0 ].rows[ 0 ].cells;
 			// look at each cell in the body first row,
 			// and make the corresponding header cell have the same width
-			for ( var j = 0; j < cells.length; j++ ) {
-				var c = cells[ j ],
+			for ( let j = 0; j < cells.length; j++ ) {
+				let c = cells[ j ],
 					// first we get the computed width of the cell
 					s = window.getComputedStyle( c ).width,
 					// the actual width includes padding, so first we remove that
